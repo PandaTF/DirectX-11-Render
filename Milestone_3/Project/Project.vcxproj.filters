@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{3026f435-6b7a-41cd-9239-3284abaa6c38}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cameraclass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dclass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="graphicsclass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="inputclass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lightclass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="modelclass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="systemclass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="textureclass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="specularLightshaderclass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ambientLightShaderClass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bitmapclass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="textureshaderclass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="font.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fontshaderclass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="textclass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fpsclass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cpuclass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="timerclass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="frustumclass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="modellistclass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="positionclass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="watershaderclass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rendertextureclass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="refractionshaderclass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="debugwindowclass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="depthshaderclass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shadowshaderclass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shadow_rendertextureclass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="projectionshaderclass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="viewpointclass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="specmapshaderclass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cameraclass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dclass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="graphicsclass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inputclass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lightclass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="modelclass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="systemclass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="textureclass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="specularLightshaderclass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ambientLightShaderClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bitmapclass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="textureshaderclass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fontclass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fontshaderclass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="textclass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fpsclass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cpuclass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="timerclass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="frustumclass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="modellistclass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="positionclass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="watershaderclass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rendertextureclass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="refractionshaderclass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="debugwindowclass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="depthshaderclass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shadowshaderclass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shadow_rendertextureclass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="projectionshaderclass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="viewpointclass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="specmapshaderclass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="specularLight_ps.hlsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="specularLight_vs.hlsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="ambientLight_ps.hlsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="ambientLight_vs.hlsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="texture_ps.hlsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="texture_vs.hlsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="font_ps.hlsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="font_vs.hlsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="water_ps.hlsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="water_vs.hlsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="refraction_ps.hlsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="refraction_vs.hlsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="depth_ps.hlsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="depth_vs.hlsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shadow_ps.hlsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shadow_vs.hlsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="projection_ps.hlsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="projection_vs.hlsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="specmap_ps.hlsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="specmap_vs.hlsl">
+      <Filter>Shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>
